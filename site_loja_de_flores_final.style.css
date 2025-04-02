@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #f8f1e5;
+    padding: 15px;
+}
+
+header h1 {
+    margin: 0;
+    color: #5c3d2e;
+}
+
+.productos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+    background: #fff;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+}
+
+.precio {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #d9534f;
+}
+
+.comprar {
+    background: #d9534f;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.comprar:hover {
+    background: #c9302c;
+}
+
+/* Estilos para la página de pago */
+.pago-container {
+    margin-top: 20px;
+}
+
+.producto-imagen {
+    max-width: 300px;
+    border-radius: 10px;
+}
