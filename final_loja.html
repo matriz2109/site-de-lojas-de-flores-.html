@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Flores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Entrega el mismo día</h1>
+        <p>¿Necesitas un ramo para hoy mismo?</p>
+        <select id="filtro">
+            <option value="todos">Ordenar por...</option>
+            <option value="menor">Menor Precio</option>
+            <option value="mayor">Mayor Precio</option>
+        </select>
+    </header>
+
+    <main>
+        <div class="productos">
+            <div class="producto" data-precio="40">
+                <img src="https://decoflortoledo.com/wp-content/uploads/2020/07/Ramo-de-Margaritas.jpg" alt="Alegres Margaritas">
+                <h2>Alegres Margaritas</h2>
+                <p class="precio">40,00€</p>
+                <button class="comprar" onclick="irAPago('Alegres Margaritas', 40, 'https://decoflortoledo.com/wp-content/uploads/2020/07/Ramo-de-Margaritas.jpg')">Comprar ahora</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
