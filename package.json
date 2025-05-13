@@ -1,0 +1,24 @@
+{
+  "name": "site-de-lojas-de-flores-.html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matriz2109/site-de-lojas-de-flores-.html.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matriz2109/site-de-lojas-de-flores-.html/issues"
+  },
+  "homepage": "https://github.com/matriz2109/site-de-lojas-de-flores-.html#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
